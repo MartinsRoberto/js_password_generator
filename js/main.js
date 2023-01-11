@@ -11,6 +11,8 @@ let qtdOptions = []
 let password = ''
 
 btnGenerate.addEventListener('click', () => {
+  if(!(numbers.checked || lowercase.checked || uppercase.checked || symbols.checked)) return
+
   qtdOptions = []
   password = ''
 
