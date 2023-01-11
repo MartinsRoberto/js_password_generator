@@ -70,3 +70,17 @@ input[type="number"]{
 .password input:focus{
   outline: none;
 }
+
+.strength-bar{
+  display: flex;
+  gap: 10px;
+  margin: 1em auto;
+}
+.strength-bar .bar{
+  height: 3px;
+  width: 100%;
+  background-color: silver;
+}
+.tips{
+  color: gray;
+}
